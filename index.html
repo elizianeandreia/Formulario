@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lange="pt-br">
+  <head>
+    <meta charset="UTF_8">
+    <title>Formulário</title>
+     <link rel="stylesheet" href="estilo.css" />
+  <head>
+    <main> 
+<body>
+  <section>
+    <div class="container"> 
+  <h1> Formulario de Registro</h1>  
+  <p>Formulario de inscrição </p>
+  </section>
+  <form action="http://www.google.com" method="get">
+    <fieldset> 
+    <section> 
+  <label for="name" id="name">Coloque seu nome completo </label>
+  <input id="name" type="text" placeholder="Escreva seu nome" required>
+   <label for="email" id="email">Seu e-mail</label>
+  <input id="email" type="email" placeholder="Seu e-mail" name="email"  required>
+  <label for="number">Sua Idade</label>
+    <input id="number" type="number" min="18" max="50" placeholder="Sua idade" required>
+    <label id="password">Crie sua senha </label>
+    <input id="password" type="password" maxlength="8">
+    </section>
+<label> Por onde nos encontrou?</label>
+   <select id="dropdown">
+  <option value="1">Google</option>
+  <option value="2">Site da empresa</option>
+  <option value="3">Indicação</option>
+  <option value="4">Redes Sociais</option>
+</select>
+<fieldset>
+  <fieldset> 
+  <legend>Para qual departamento está se inscrevendo? </legend>
+  <label for="suporte">Suporte</label><input id="suporte" type="radio" name="departamento" class="inline">
+  <label for="desenvolvimento">Desenvolvimento</label><input id="desenvolvimento" type="radio" name="departamento" class="inline">
+</fieldset>
+  <section>
+    <fieldset>
+<label>Anexe seu CV </label><input type="file" required>
+</fieldset>
+</section>
+<fieldset>
+  <section> 
+  <label for="bio">Escreva sobre você</label>
+  <textarea placeholder="Gosto de ler" name="bio" rows="3" cols="30"></textarea></label>
+</fieldset>
+</section>
+<fieldset> 
+<input type="checkbox">
+<label for="termos">Estou de acordo com os <a href="www.google.com">termos e condições</a> </label>
+</fieldset>
+<input id="submit" type="submit" name="terrmos" value="Enviar" required>
+</div>
+  </form>
+  </body>
+  </main>
+  </html>
+
+  
